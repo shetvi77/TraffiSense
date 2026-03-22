@@ -1,0 +1,11 @@
+segment_id,street_name,from_location,to_location,speed,timestamp,traffic_level
+SEG001,Broadway,Times Square,Central Park,25,2024-01-01 08:00:00,moderate
+SEG002,5th Avenue,Central Park,Grand Central,30,2024-01-01 08:00:05,light
+SEG003,Park Avenue,Grand Central,Empire State,20,2024-01-01 08:00:10,heavy
+SEG004,Madison Ave,Empire State,Union Square,15,2024-01-01 08:00:15,heavy
+SEG005,Lexington Ave,Union Square,Washington Sq,35,2024-01-01 08:00:20,light
+SEG006,3rd Avenue,Washington Sq,Houston St,28,2024-01-01 08:00:25,moderate
+SEG007,2nd Avenue,Houston St,Canal St,32,2024-01-01 08:00:30,light
+SEG008,1st Avenue,Canal St,Brooklyn Bridge,18,2024-01-01 08:00:35,heavy
+SEG009,York Avenue,Brooklyn Bridge,Wall Street,22,2024-01-01 08:00:40,moderate
+SEG010,FDR Drive,Wall Street,Battery Park,40,2024-01-01 08:00:45,light
