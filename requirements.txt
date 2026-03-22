@@ -6,3 +6,4 @@ pandas
 networkx
 groq
 scipy
+scikit-learn
