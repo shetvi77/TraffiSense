@@ -6,7 +6,7 @@
 
 ---
 
-## 🎯 Your Responsibilities
+##  Your Responsibilities
 
 As the Data & Simulation Lead, you manage the "live heartbeat" of the system:
 
@@ -16,7 +16,7 @@ As the Data & Simulation Lead, you manage the "live heartbeat" of the system:
 
 ---
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 windsurf-project/
@@ -33,7 +33,7 @@ windsurf-project/
 
 ---
 
-## 🚀 Quick Start Guide
+##  Quick Start Guide
 
 ### Step 1: Activate Your Virtual Environment
 
@@ -65,17 +65,17 @@ python src/main.py
 ```
 
 This demonstrates all three core responsibilities:
-- ✅ Pandas CSV loading & cleaning
-- ✅ NetworkX graph building & A* routing
-- ✅ Threading simulation (5-second intervals)
+- Pandas CSV loading & cleaning
+- NetworkX graph building & A* routing
+- Threading simulation (5-second intervals)
 
 **To stop:** Press `Ctrl+C`
 
 ---
 
-## 📚 Component Details
+## Component Details
 
-### 1️⃣ Data Loader (`data_loader.py`)
+### 1️. Data Loader (`data_loader.py`)
 
 **Purpose:** Load and process NYC traffic CSV using pandas
 
@@ -103,7 +103,7 @@ SEG001,Broadway,Times Square,Central Park,25,2024-01-01 08:00:00,moderate
 
 ---
 
-### 2️⃣ Traffic Simulator (`simulator.py`)
+### 2. Traffic Simulator (`simulator.py`)
 
 **Purpose:** Simulate live traffic feed using Python threading
 
@@ -133,7 +133,7 @@ This is where you connect to other team members' components (frontend, incident 
 
 ---
 
-### 3️⃣ Traffic Router (`routing.py`)
+### 3. Traffic Router (`routing.py`)
 
 **Purpose:** Calculate fastest routes using NetworkX A* algorithm
 
@@ -166,7 +166,7 @@ alt_route = router.find_fastest_route("Times Square", "Battery Park")
 
 ---
 
-## 🔧 How to Integrate with Team Members
+## How to Integrate with Team Members
 
 ### For Frontend Developer:
 ```python
@@ -198,7 +198,7 @@ simulator.register_callback(save_to_db)
 
 ---
 
-## 🧪 Testing Individual Components
+##  Testing Individual Components
 
 ### Test Data Loader Only:
 ```powershell
@@ -217,7 +217,7 @@ python -c "from src.data_loader import TrafficDataLoader; from src.routing impor
 
 ---
 
-## 📊 Sample Output
+##  Sample Output
 
 When you run `python src/main.py`, you'll see:
 
@@ -247,15 +247,15 @@ NYC TRAFFIC MANAGEMENT SYSTEM - DATA & SIMULATION BACKEND
 
 [5/5] STARTING SIMULATION
 ------------------------------------------------------------
-🚦 Simulation started: 10 records, 5s interval
-📡 [0/10] Emitted: Segment SEG001, Speed: 25 mph
-📡 [1/10] Emitted: Segment SEG002, Speed: 30 mph
+ Simulation started: 10 records, 5s interval
+ [0/10] Emitted: Segment SEG001, Speed: 25 mph
+[1/10] Emitted: Segment SEG002, Speed: 30 mph
 ...
 ```
 
 ---
 
-## 🎓 Key Concepts to Explain in Presentation
+##  Key Concepts to Explain in Presentation
 
 ### 1. Pandas Data Processing
 - **Why pandas?** Efficient CSV handling, data cleaning, grouping operations
@@ -276,7 +276,7 @@ NYC TRAFFIC MANAGEMENT SYSTEM - DATA & SIMULATION BACKEND
 
 ---
 
-## 🐛 Troubleshooting
+##  Troubleshooting
 
 ### Issue: "No module named 'pandas'"
 **Solution:**
@@ -302,7 +302,7 @@ print(router.get_graph_stats())
 
 ---
 
-## 📝 Next Steps for Your Team Project
+##  Next Steps for Your Team Project
 
 1. **Get real NYC traffic data:**
    - NYC Open Data: https://data.cityofnewyork.us/
@@ -325,7 +325,7 @@ print(router.get_graph_stats())
 
 ---
 
-## 📞 Integration Checklist
+##  Integration Checklist
 
 - [ ] CSV data source confirmed (real or sample)
 - [ ] Simulator callback connected to frontend/API
@@ -337,12 +337,12 @@ print(router.get_graph_stats())
 
 ---
 
-## 🎉 You're Ready!
+##  You're Ready!
 
 You now have a complete backend system demonstrating:
-- ✅ **Pandas** for data processing
-- ✅ **Threading** for live simulation
-- ✅ **NetworkX A* routing** for optimal pathfinding
+- **Pandas** for data processing
+- **Threading** for live simulation
+- **NetworkX A* routing** for optimal pathfinding
 
 Run `python src/main.py` to see everything in action!
 
